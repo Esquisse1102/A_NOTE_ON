@@ -4,7 +4,7 @@ Add here global page variables to use throughout your website.
 +++
 author = "Esquisse"
 mintoclevel = 2
-prepath= "Esquisse1102"
+prepath= "A_NOTE_ON"
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
