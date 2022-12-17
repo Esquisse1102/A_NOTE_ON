@@ -2,7 +2,7 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "Esquisse"
+author = "Esquisse1102"
 mintoclevel = 2
 prepath= "A_NOTE_ON"
 

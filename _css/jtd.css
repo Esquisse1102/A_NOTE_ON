@@ -14,7 +14,7 @@ html {
 
 @media (min-width: 31.25rem) {
   html {
-    font-size: 19px;
+    font-size: 16.5px;
   }
 }
 
@@ -236,7 +236,6 @@ SIDE BAR
   margin-top: 0.3em;
   margin-left: -0.8em;
   color: rgba(92, 89, 98, 0.3);
-  content: "- ";
 }
 
 .menu-list-child-list .menu-list-item.active::before {
@@ -247,7 +246,12 @@ SIDE BAR
   font-size: 14px !important;
   margin: 0;
 }
-
+.menu-list-parent .menu-list-child-list{
+  display:none
+}
+.menu-list-parent.active .menu-list-child-list{
+  display:block
+}
 .menu-list-item .menu-list-child-list {
   display: none;
 }
@@ -270,7 +274,7 @@ SIDE BAR
 
 .side-bar .footer {
   width: 150px;
-  font-size: 13px;
+  font-size: 8px;
   padding-right: 1rem;
   padding-left: 1rem;
   position: absolute;
@@ -436,7 +440,7 @@ MAIN CONTENT
 }
 
 .main-footer {
-  font-size: 14px;
+  font-size: 8px;
   color: darkgray;
   border-top: 1px solid #eeebee;
   padding-top: 15px;
@@ -647,4 +651,15 @@ franklin-toc {
   /* Avoid clickable elements being too close together. */
   margin: 0.6rem 0;
 }
+
+.hljs-string {color: #ca4418;}
+.hljs-subst { color: inherit;}
+
+.page-foot {
+  margin-top: 2em;
+  border-top: 1px solid #eeebee;
+  padding-top:20px;
+  padding-bottom:15px;
+  color: gray;
+  font-size: 90%;
 }
