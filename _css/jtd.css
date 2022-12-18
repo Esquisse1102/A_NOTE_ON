@@ -14,7 +14,7 @@ html {
 
 @media (min-width: 31.25rem) {
   html {
-    font-size: 16.5px;
+    font-size: 16px;
   }
 }
 
@@ -662,4 +662,58 @@ franklin-toc {
   padding-bottom:15px;
   color: gray;
   font-size: 90%;
+}
+
+/* ==================================================================
+    LaTex
+================================================================== */
+
+.definition {
+  background-color: aliceblue;
+  border-left: 5px solid cornflowerblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.example {
+  background-color: #f8fff0;
+  border-left: 5px solid #94ed64;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.theorem {
+  background-color: #fff0f8;
+  border-left: 5px solid #ed6494;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.proposition {
+  background-color: #fff7f0;
+  border-left: 5px solid #edbd64;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.remark {
+  background-color: #f7f0ff;
+  border-left: 5px solid #bd64ed;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.proof {
+  display: block;
+  margin: 12px 0;
+}
+
+.proof:after {
+  content: "\25A1";
+  float:right;
 }
