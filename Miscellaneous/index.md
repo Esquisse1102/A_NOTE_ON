@@ -1,5 +1,5 @@
 +++
-title = "Miscellaneous"
+title = "Miscellaneous Topics"
 +++
 
-# Miscellaneous Results
+# Miscellaneous Topics
