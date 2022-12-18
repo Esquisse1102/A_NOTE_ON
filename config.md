@@ -10,7 +10,7 @@ prepath= "A_NOTE_ON"
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
-ignore = ["node_modules/","K-Theory/Cuntz_proof.md"]
+ignore = ["node_modules/",r".*_tmp.md"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
