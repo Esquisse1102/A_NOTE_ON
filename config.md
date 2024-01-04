@@ -14,15 +14,20 @@ ignore = ["node_modules/",r".*_tmp.md"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "Franklin Template"
-website_descr = "Example website using Franklin"
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
+website_title = "A_NOTE_ON"
+website_descr = "Esquisse's mathematical notes"
+website_url   = "https://esquisse1102.github.io/A_NOTE_ON/"
 +++
 
 <!--
 Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{\ra}{\rightarrow}
 \newcommand{\scal}[1]{\langle #1 \rangle}
 
 
@@ -57,6 +62,7 @@ Add here global latex commands to use throughout your pages.
 @@
 }
 
+
 \newcommand{\remark}[2]{
 @@remark **注意** (!#1): \\
 !#2
@@ -69,5 +75,4 @@ Add here global latex commands to use throughout your pages.
 @@
 \\ 
 }
-
 
