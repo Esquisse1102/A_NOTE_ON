@@ -1,4 +1,4 @@
-Sitemap: https://tlienart.github.io/FranklinTemplates.jl/sitemap.xml
+Sitemap: https://esquisse1102.github.io/A_NOTE_ON/sitemap.xml
 
 User-agent: *
 Disallow:
