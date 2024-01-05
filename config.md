@@ -10,7 +10,7 @@ prepath= "A_NOTE_ON"
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
-ignore = ["node_modules/",r".*_tmp.md"]
+ignore = ["node_modules/",r".*_.md"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
@@ -27,6 +27,7 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{\spin}{\mathrm{spin}}
 \newcommand{\ra}{\rightarrow}
 \newcommand{\scal}[1]{\langle #1 \rangle}
 
@@ -76,3 +77,14 @@ Add here global latex commands to use throughout your pages.
 \\ 
 }
 
+
+
+
+<!-- 中央寄席 -->
+\newcommand{\center}[1]{
+    ~~~
+    <div style="text-align:center;font-weight:bold">
+    !#1
+    </div>
+    ~~~
+}

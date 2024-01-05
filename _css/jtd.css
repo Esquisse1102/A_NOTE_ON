@@ -619,13 +619,20 @@ body { counter-reset: eqnum; }
 } /* overwrite katex settings */
 
 .katex-display::after {
-  counter-increment: eqnum;
-  content: "(" counter(eqnum) ")";
-  position: relative;
+  /*counter-increment: eqnum;*/
+  counter-increment: nothing;
+  /*content: "(" counter(eqnum) ")";*/
+  content: "";
+  /*position: relative;
   float: right;
-  padding-right: 5px;
+  padding-right: 5px;*/
 }
 
+/* 追加 */
+.nonumber .katex-display::after {
+  counter-increment: nothing;
+  content: "";
+}
 /* ==================================================================
     CODE & HIGHLIGHT.JS
 ================================================================== */
@@ -700,6 +707,14 @@ franklin-toc {
   margin-bottom: 1em;
 }
 
+.corollary {
+  background-color: #fff7f0;
+  border-left: 5px solid #edbd64;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
 .remark {
   background-color: #f7f0ff;
   border-left: 5px solid #bd64ed;
@@ -716,4 +731,12 @@ franklin-toc {
 .proof:after {
   content: "\25A1";
   float:right;
+}
+
+
+/* 中央寄席 */
+.center {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 1em;
 }
