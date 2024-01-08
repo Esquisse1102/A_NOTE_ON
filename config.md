@@ -27,7 +27,7 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\Hom}{\mathrm{Hom}}
-\newcommand{\spin}{\mathrm{spin}}
+\newcommand{\Spinc}{\mathrm{Spin^c}}
 \newcommand{\ra}{\rightarrow}
 \newcommand{\scal}[1]{\langle #1 \rangle}
 
