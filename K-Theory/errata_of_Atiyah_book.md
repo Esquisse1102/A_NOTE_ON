@@ -7,6 +7,9 @@ title = "Errata of Atiyah's Book"
 Atiyah の本の和訳 \cite{atiyah2022k} で見つけた誤植（と思われるもの）についてまとめています．
 
 
+
+## 1章
+
 - p.3, 12行目:
     - 「任意の同型写像 $\varphi$ は」$\ra$「任意の準同型写像 $\varphi$ は」
         - 原文 \cite{atiyah1967k} を見ると「any homomorphism $\varphi$」とあるので，和訳の際に"準"がタイポしたものと思われる．
@@ -14,6 +17,8 @@ Atiyah の本の和訳 \cite{atiyah2022k} で見つけた誤植（と思われ�
 - p.13, 4行目:
     - 「$V$ は可縮」$\ra$「$Y$ は可縮」
         - 確かに $V$ は線型空間であることから可縮ではあるのだが，ここで使うべき性質は $Y$ の可縮性である．
+
+## 2章
 
 - p.31, 19行目:
     - 「$H^*_x \subset E_x$」 $\ra$ 「$H^*_a \subset E_x$」

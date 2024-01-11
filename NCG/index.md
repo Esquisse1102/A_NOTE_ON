@@ -9,7 +9,7 @@ title = "Noncommutative Geometry"
 ## Contents
 
 - [非可換幾何学とは](/NCG/what_is_NCG)
-    - 非可換幾何学の概要について書いた．"非可換"の意味するところが伝われば幸いである．
+
 
 
 
