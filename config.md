@@ -79,13 +79,3 @@ Add here global latex commands to use throughout your pages.
 }
 
 
-
-
-<!-- 中央寄席 -->
-\newcommand{\center}[1]{
-    ~~~
-    <div style="text-align:center;font-weight:bold">
-    !#1
-    </div>
-    ~~~
-}

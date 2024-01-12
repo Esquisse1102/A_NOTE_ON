@@ -16,6 +16,12 @@ title = "etymology of spectrum"
 
 [^known]: なお，（明文化されたものこそ見当たらないが）この記事の内容自体は専門家には well-known な事実であると思う．
 
+@@h2_heading
+Contents
+@@
+\toc
+
+
 ## 線形作用素のスペクトルとBanach環のスペクトル
 まずは（有界）線形作用素のスペクトルについて思い出そう．なお，Hilbert空間や有界線形作用素については既知とする（例えば文献\cite{Hiai-Yanagi}を参照のこと）．
 
@@ -178,8 +184,12 @@ $$\sigma(A) \longrightarrow {\rm Spm}A, \quad \alpha \mapsto \ker \alpha$$
 
 
 ---
-# Support
-本サイトの記事や解説を気に入ってくださった方，「投げ銭してもいいよ」という方がいらっしゃったら，以下よりご支援いただけると嬉しいです．
+
+@@h2_heading
+Support
+@@
+
+本サイトの記事や解説を気に入ってくださった方，「投げ銭してもいいよ」という方がいらっしゃれば，以下よりご支援いただけると嬉しいです．
 - [OFUSE](https://ofuse.me/esquisse1102)
   - OFUSE は投げ銭付きファンレターサービスです．
   - 「ファンレターを送る」で投げ銭（100円〜）付きのファンレターを送ることができます．
@@ -191,3 +201,5 @@ $$\sigma(A) \longrightarrow {\rm Spm}A, \quad \alpha \mapsto \ker \alpha$$
   - 受取人メールアドレスには以下を入力してください．
     - esquisse1102amazongift[at]gmail.com （[at] を @ に変えてください）
       - 本メールアドレスはギフトカード受け取り専用です．\\それ以外のメールは届かない設定になっていますのでご注意ください．
+
+応援よろしくお願いします！
