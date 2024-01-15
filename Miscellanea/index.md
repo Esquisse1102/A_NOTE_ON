@@ -7,6 +7,6 @@ title = "Miscellanea"
 
 ## Contents
 
-- [なぜ素イデアルの集合を spectrum と呼ぶのか？](/Miscellanea/spectrum)
+- [なぜ素イデアルの集合をスペクトルと呼ぶのか？](/Miscellanea/spectrum)
 
 

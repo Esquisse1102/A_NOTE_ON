@@ -360,7 +360,7 @@ Connes による Riemann（リーマン）予想への挑戦は1990年代から�
 
 この Connes の本の前身となった講義録 \cite{connes1994geometrie} （フランス語）を和訳したものが \cite{connes__maruyama1999noncommutative} である．日本語で書かれた非可換幾何学についてのまとまった本でおそらく現状唯一のものである．ただし，上記の教科書 \cite{connes1994noncommutative} の方が内容が豊富かつ Connes 自身のホームページで pdf ファイルが公開されているため，文献としてはそちらの方をお勧めする[^15]．
 
-なお，非可換幾何の本ではないが和書つながりで関係が深いものとして \cite{moriyoshi_natsume2001sayousokan} がある．作用素環の$K$理論についての概説と作用素環を用いた指数定理の一般化の話が載っており，非可換幾何に関する話題も多数載っている．ちなみにこの本は現在絶版であるが，[この日本数学会のページ](https://mathsoc.jp/publication/SugakuMemoirs/)から pdf ファイルをダウンロードすることができる．
+なお，非可換幾何の本ではないが和書つながりで関係が深いものとして \cite{moriyoshi_natsume2001sayousokan} がある．作用素環の$K$理論についての概説と作用素環を用いた指数定理の一般化の話が載っており，非可換幾何に関する話題も多数載っている．ちなみにこの本は現在品切れ状態であるが，[この日本数学会のページ](https://mathsoc.jp/publication/SugakuMemoirs/)から pdf ファイルをダウンロードすることができる．
 
 また，Connes の本よりも入門的で，教科書としても使用できそうな本には\cite{khalkhali2009basic} と \cite{gracia_varilly_figueroa2001elements} がある．
 
@@ -540,8 +540,8 @@ Support
   - 「ファンレターを送る」で投げ銭（100円〜）付きのファンレターを送ることができます．
     - デフォルトの金額は OFUSE の仕様なので気にしないでください．
   - 応援・質問・コメントなど，何でも大歓迎です
-- [Amazonギフトカード](https://www.amazon.co.jp/dp/B004N3APDM )
-  - お好きな金額（15円〜）を指定してご支援いただけます．
+- [Amazon](https://www.amazon.co.jp/dp/B004N3APDM )
+  - お好きな金額（15円〜）をギフトカードとしてお送りいただけます．
     - デフォルトの金額は Amazon の仕様なので気にしないでください．
   - 受取人メールアドレスには以下を入力してください．
     - esquisse1102amazongift[at]gmail.com （[at] を @ に変えてください）
