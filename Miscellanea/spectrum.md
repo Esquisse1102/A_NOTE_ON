@@ -118,7 +118,7 @@ $$\sigma(A) := \{\alpha :A \rightarrow \mathbb{C} \mid \alpha は\mathbb{C}代�
 \proposition{可換 Banach 環のスペクトルと元のスペクトルの関係}{
 $A$ を単位的 Banach 環とするとき，任意の $a \in A$ に対して
 
-$$\sigma(a) = \{\alpha(a) : \alpha \in \alpha(A)\}$$
+$$\sigma(a) = \{\alpha(a) : \alpha \in \sigma(A)\}$$
 
 が成立する．
 }
