@@ -12,6 +12,10 @@ prepath= "A_NOTE_ON"
 # Base files such as LICENSE.md and README.md are ignored by default.
 ignore = ["node_modules/",r".*_.md"]
 
+# For google search console:
+# https://discourse.julialang.org/t/google-search-console-verification-in-franklin-jl-generated-site/72760/2
+keep_path = ["googleXYZ012...html"]
+
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
 website_title = "A_NOTE_ON"
