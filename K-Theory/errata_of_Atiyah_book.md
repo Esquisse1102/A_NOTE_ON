@@ -52,14 +52,25 @@ Atiyah の本の和訳 \cite{atiyah2022k} で見つけた誤植（と思われ�
 
 - p.58, 2行目:
     - 「$i_n$ は包含写像」
-        - 少し説明不足かつ直前に包含写像 $X = P_1 \ra P_2 \ra \cdots \ra P_n$ について言及していて非常にミスリーディングであるため補足をする．
+        - 誤植というわけではないが，少し説明不足かつ直前に包含写像 $X = P_1 \ra P_2 \ra \cdots \ra P_n$ について言及していて，非常にミスリーディングであるため補足をする．
         - ここで考えるべき包含写像は上述の自然な包含列から定まるものでは**なく**，ゼロ切断 $X = P_1 \ra P_n$ である．
             - そうでなければ図式が可換にならない．
+
+- p.68, 4行目:
+    - 「$\Phi: {\mathcal D}_n (X,Y) \ra {\mathcal L}_n(X,Y)$」
+        - 自然な写像が上の準同型を導くこと自体は間違いではないが，後ろの補題2.6.14 の主張などを鑑みるに，正しくは $\Phi: {\mathcal D}_n (X,Y) \ra {\mathcal C}_n(X,Y)$ であると思われる．
+            - ただし，この本では ${\mathcal C}_n(X,Y)$ を圏として導入しているので，正確に言えばこの書き方も問題がある．
+            - さらに言えば，そもそも ${\mathcal D}_n (X,Y)$ は集合にならない．なのでこの部分を正確に書こうとすると，${\mathcal D}_n (X,Y)$ も圏として導入し $\Phi$ を関手とするか，ホモトピー類の間の写像として $\Phi$ を定義するかのいずれかになると思う．
+        - なお，この節の内容の参考にしたであろう \cite{atiyah_bott_shapiro1964} では ${\mathcal L}_n(X,Y)$ ではなく ${\mathcal C}_n(X,Y)$ となっている．
+            - ちなみにこの論文では ${\mathcal C}_n(X,Y)$ を集合として導入しているので厳密には間違っている（${\mathcal C}_n(X,Y)$ は集合にならない）が，上述の様に適当に修正すればよいだけなので本質的な問題ではない．
 
 - p.68, 8行目:
     - 「$X \times \{0\} \cup X \times \{1\}$ 上の任意の複体で」
         - ここで考える底空間は $X \times \{0\} \cup X \times \{1\} \cup Y \times I$ が正しい．
         - なお原文では $X \times \{0\} \cup X \times \{1\} \cup Y \times I$ となっているので和訳の際にタイポしたものと思われる．
+
+
+
 
 ## 参考文献
 
@@ -69,3 +80,4 @@ Atiyah の本の和訳 \cite{atiyah2022k} で見つけた誤植（と思われ�
 
 * \biblabel{atiyah_bott1964periodicity}{[AB1]} [AB1] {{ref atiyah_bott1964periodicity}}
 
+* \biblabel{atiyah_bott_shapiro1964}{[ABS1]} [ABS1] {{ref atiyah_bott_shapiro1964}}
