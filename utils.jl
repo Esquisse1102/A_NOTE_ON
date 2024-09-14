@@ -108,3 +108,25 @@ function hfun_ref(ref)
 	return find_matching_reference(ref[1], "_assets/references.bib")
 end
   
+
+########### tikxcd用 ###############
+
+#=
+using TikzPictures
+
+tikzUseTectonic(true)
+
+function env_tikzcd(e, _)
+    content = strip(Franklin.content(e))
+    name = strip(Franklin.content(e.braces[1]))
+    # save SVG at __site/assets/[path/to/file]/$name.svg
+    rpath = joinpath("assets", splitext(Franklin.locvar(:fd_rpath))[1], "$name.svg")
+    outpath = joinpath(Franklin.path(:site), rpath)
+    # if the directory doesn't exist, create it
+    outdir = dirname(outpath)
+    isdir(outdir) || mkpath(outdir)
+    # save the file and show it
+    save(SVG(outpath), TikzPicture(content; environment="tikzcd", preamble="\\usepackage{tikz-cd}"))
+    return "\\fig{/$(Franklin.unixify(rpath))}"
+end
+=#

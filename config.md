@@ -30,11 +30,25 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\C}{\mathbb C}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
+\newcommand{\B}{\mathcal B}
+\newcommand{\K}{\mathcal K}
+\newcommand{\F}{\mathcal F}
+\newcommand{\calQ}{\mathcal Q}
+\newcommand{\calL}{\mathcal L}
+\newcommand{\Fred}{\mathrm{Fred}}
+\newcommand{\Index}{\mathrm{Index}}
+\newcommand{\Tr}{\mathrm{Tr}}
+\newcommand{\dim}{\mathrm{dim}}
+\newcommand{\Ker}{\mathrm{Ker}\,}
+\newcommand{\Coker}{\mathrm{Coker}\,}
+\newcommand{\Im}{\mathrm{Im}\,}
 \newcommand{\Hom}{\mathrm{Hom}}
 \newcommand{\Spec}{\mathrm{Spec}}
 \newcommand{\Spinc}{\mathrm{Spin^c}}
 \newcommand{\ra}{\rightarrow}
 \newcommand{\scal}[1]{\langle #1 \rangle}
+\newcommand{\ip}[1]{\langle {#1} \rangle}
+\newcommand{\norm}[1]{\| {#1} \|}
 
 
 <!-- 定理環境 -->
@@ -58,6 +72,12 @@ Add here global latex commands to use throughout your pages.
 
 \newcommand{\proposition}[2]{
 @@proposition **命題** (!#1): \\
+!#2
+@@
+}
+
+\newcommand{\lemma}[2]{
+@@lemma **補題** (!#1): \\
 !#2
 @@
 }
