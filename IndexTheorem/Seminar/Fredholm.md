@@ -190,12 +190,12 @@ $\K(H)$ は $\B(H)$ の自己共役な閉イデアルである．
 を **Calkin環** という．
 }
 
-$\pi \colon \B(H) \ra \Q(H)$ を自然な商写像とし，$\Q(H)^{\times}$ で $\Q(H)$ の可逆元全体を表す．
+$\pi \colon \B(H) \ra \calQ(H)$ を自然な商写像とし，$\calQ(H)^{\times}$ で $\calQ(H)$ の可逆元全体を表す．
 
 \theorem{Atkinson, 1951}{
 Hilbert空間 $H$ 上の有界線形作用素 $\B(H)$ に対して，
 \[
-    T \in \Fred(H) \iff \pi(T) \in \Q(H)^{\times}
+    T \in \Fred(H) \iff \pi(T) \in \calQ(H)^{\times}
 \]
 
 より詳しく，Hilbert空間 $H$ の有界線形作用素 $T \in \B(H)$ に対して以下は同値となる：
