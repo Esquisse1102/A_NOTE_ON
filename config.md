@@ -49,6 +49,8 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\scal}[1]{\langle #1 \rangle}
 \newcommand{\ip}[1]{\langle {#1} \rangle}
 \newcommand{\norm}[1]{\| {#1} \|}
+\newcommand{\semicolon}{\nobreak\mskip2mu\mathpunct{}\nonscript
+\mkern-\thinmuskip{;}\mskip6muplus1mu\relax}
 
 
 <!-- 定理環境 -->

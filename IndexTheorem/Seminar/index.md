@@ -10,8 +10,9 @@ title = "Index Theorem Seminar"
 
 ## Contents
 
-### K理論
-- in preparation
+### $K$理論
+- [$K$理論の基本](/IndexTheorem/Seminar/K-theory_basic)
+
 
 ### Fredholm 作用素と Atiyah-Jänich の定理
 - [Fredholm 作用素](/IndexTheorem/Seminar/Fredholm)
