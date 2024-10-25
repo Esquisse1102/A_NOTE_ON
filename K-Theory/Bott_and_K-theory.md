@@ -19,7 +19,7 @@ title = "K-Theory and Bott Periodicity"
     - 同相の記号を以降の説明に合わせて 「$\approx$」 $\to$ 「$\cong$」とした
 
 - p.4, $S^1$ と $\C^\times$ がホモトピー同値であることの説明部分
-    - 「$f \simeq g$」 $\to$ 「$g \circ f = \rm{id}_{\C^\times}  , \ f \circ g = \rm{id}_{S^1}$」
+    - 「$f \simeq g$」 $\to$ 「$g \circ f = \mathrm{id}_{\C^\times}  , \ f \circ g = \mathrm{id}_{S^1}$」
 
 - p.7, 一番下の右側の図
     - 「$E_x = \varphi(x)F_x$」 $\to$ 「$F_x = \varphi(x)E_x$」
@@ -30,7 +30,7 @@ title = "K-Theory and Bott Periodicity"
 - p.10, 外部テンソル積の図
     - 真ん中の図と右側の図の間に矢印を追記
 
-- p.11, $\rm{Vect}(X)$ の定義
+- p.11, $\mathrm{Vect}(X)$ の定義
     - 「$\mathbb{K}$-ベクトル束」 $\to$ 「$\C$-ベクトル束」
 
 - p.11, 一点上のベクトル束の図
