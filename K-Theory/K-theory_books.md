@@ -51,7 +51,7 @@ Atiyah が ハーバード大学で行った講義を元にしているとの通
 - 2.7節について
     - 旗束やグラスマン束の$K$群の計算およびキュネスの定理についてはKaroubiの本\cite{karoubi1978k}のIV章3節が詳しい．
 - その他
-    - 非公式ではあるが，[ここ](./errata_of_Atiyah_book)に誤植等をまとめている．
+    - 非公式ではあるが，[ここ](../errata_of_Atiyah_book)に誤植等をまとめている．
 
 
 ## Karoubi「$K$-Theory An Introduction」
