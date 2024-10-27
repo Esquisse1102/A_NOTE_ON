@@ -72,3 +72,19 @@ $S \times S$ 上の同値関係を
 
 * \biblabel{atiyah1967k}{[A1]} [A1] {{ref atiyah1967k}}
 * \biblabel{mukherjee2013atiyah}{[Muk]} [Muk] {{ref mukherjee2013atiyah}}
+
+
+---
+
+@@h2_heading
+Support
+@@
+
+本サイトの記事や解説を気に入ってくださった方，「投げ銭してもいいよ」という方がいらっしゃれば，以下よりご支援いただけると嬉しいです．
+- [OFUSE](https://ofuse.me/esquisse1102)
+  - OFUSE は投げ銭付きファンレターサービスです．
+  - 「ファンレターを送る」で投げ銭（100円〜）付きのファンレターを送ることができます．
+    - デフォルトの金額は OFUSE の仕様なので気にしないでください．
+  - 応援・質問・コメントなど，何でも大歓迎です！
+
+応援よろしくお願いします！
