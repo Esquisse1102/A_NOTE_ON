@@ -3,16 +3,19 @@ title = "K-Theory and Bott Periodicity"
 +++
 
 # Bott 周期性と$K$理論
+- [第6回すうがく徒のつどい](https://math-tsudoi.jp/6/)での講演アブストラクトと講演資料（修正版）
+    - [アブストラクト](https://math-tsudoi.jp/6/abstracts/Esquisse1102.pdf)
+    - [講演資料](https://math-tsudoi.jp/6/slides/Esquisse1102-fixed.pdf)
 
-[第6回すうがく徒のつどい](https://math-tsudoi.jp)での講演アブストラクトと講演資料（修正版）
-
-## アブストラクトと講演資料
-
-- [アブストラクト](https://math-tsudoi.jp/view-file/?name=Esquisse1102&file_number=1)
-- [講演資料](https://math-tsudoi.jp/view-file/?name=Esquisse1102&file_number=3)
+# Bott 周期性勉強会資料
+- [Bott周期性勉強会](https://bott-periodicity-seminar.peatix.com/)での講演資料
+    - [講演資料](/assets/pdf/Bott_periodicity.pdf)
 
 
 
+
+
+<!--
 ## 講演資料の修正箇所
 
 - p.4, ホモトピー同値の説明部分
@@ -56,7 +59,7 @@ title = "K-Theory and Bott Periodicity"
 - p.21, ページ下部のポイントの二つ目
     - 「$K(A \otimes K(H)) \cong K(H)$」 $\to$ $「K(A \otimes K(H)) \cong K(A)$」
 
-
+-->
 ---
 
 @@h2_heading

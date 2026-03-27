@@ -9,6 +9,7 @@ title = "Noncommutative Geometry"
 ## Contents
 
 - [非可換幾何学とは](/NCG/what_is_NCG)
+- [悪い商の非可換幾何学](/NCG/bad_quotient)
 
 
 
